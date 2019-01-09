@@ -1,0 +1,8 @@
+name: backpack
+main: me.vlaggenstok.backpack.main.Main
+version: 1.0
+commands:
+  beta:
+    description: test
+  backpack:
+    description: tests
