@@ -6,7 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fa18634-0fde-4c9d-97af-40b45992432c" name="Default Changelist" comment="" />
+    <list default="true" id="8fa18634-0fde-4c9d-97af-40b45992432c" name="Default Changelist" comment="test">
+      <change beforePath="$PROJECT_DIR$/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/vlaggenstok/backpack/FileData/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/vlaggenstok/backpack/FileData/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Util.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,29 +57,29 @@
         <counts>
           <entry key="class" value="3" />
           <entry key="java" value="39" />
-          <entry key="yml" value="3" />
+          <entry key="yml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="JAVA" value="39" />
-          <entry key="YAML" value="3" />
+          <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="19" />
-          <entry key="java" value="22364" />
+          <entry key="java" value="22370" />
           <entry key="txt" value="5" />
-          <entry key="yml" value="115" />
+          <entry key="yml" value="228" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="22364" />
+          <entry key="JAVA" value="22370" />
           <entry key="PLAIN_TEXT" value="24" />
-          <entry key="YAML" value="115" />
+          <entry key="YAML" value="228" />
         </counts>
       </usages-collector>
     </session>
@@ -84,14 +89,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+            <state relative-caret-position="470">
+              <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#newid#0;class#Util#0" expanded="true" />
                 <element signature="method#newcode#0;class#Util#0" expanded="true" />
+                <element signature="e#3109#3139#0" expanded="true" />
                 <element signature="method#stringToItems#0;class#Util#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/plugin.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -115,15 +130,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/vlaggenstok/backpack/FileData/Database.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            <state relative-caret-position="334">
+              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#Database#0;class#Database#0" expanded="true" />
                 <element signature="method#createDatabase#0;class#Database#0" expanded="true" />
-                <element signature="method#test#0;class#Database#0" expanded="true" />
+                <element signature="method#Tables#0;class#Database#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,10 +172,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="-153">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#onEnable#0;class#Main#0" expanded="true" />
                 <element signature="method#establishConnection#0;class#Main#0" expanded="true" />
                 <element signature="method#establishConnecction#0;class#Main#0" expanded="true" />
               </folding>
@@ -243,18 +260,18 @@
         <option value="$PROJECT_DIR$/src/me/vlaggenstok/backpack/events/Join.java" />
         <option value="$PROJECT_DIR$/src/me/vlaggenstok/backpack/commands/Password.java" />
         <option value="$PROJECT_DIR$/src/me/vlaggenstok/backpack/commands/beta.java" />
-        <option value="$PROJECT_DIR$/resources/plugin.yml" />
         <option value="$PROJECT_DIR$/src/me/vlaggenstok/backpack/commands/Lock.java" />
         <option value="$PROJECT_DIR$/src/me/vlaggenstok/backpack/events/BlockPlace.java" />
-        <option value="$PROJECT_DIR$/src/me/vlaggenstok/backpack/FileData/Database.java" />
-        <option value="$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Main.java" />
         <option value="$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Backpack.java" />
         <option value="$PROJECT_DIR$/src/me/vlaggenstok/backpack/FileData/Data.java" />
         <option value="$PROJECT_DIR$/src/me/vlaggenstok/backpack/events/Quit.java" />
         <option value="$PROJECT_DIR$/src/me/vlaggenstok/backpack/events/Open.java" />
         <option value="$PROJECT_DIR$/src/me/vlaggenstok/backpack/events/ChatLock.java" />
-        <option value="$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Util.java" />
         <option value="$PROJECT_DIR$/src/me/vlaggenstok/backpack/commands/BackPack.java" />
+        <option value="$PROJECT_DIR$/src/me/vlaggenstok/backpack/FileData/Database.java" />
+        <option value="$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Util.java" />
+        <option value="$PROJECT_DIR$/resources/plugin.yml" />
       </list>
     </option>
   </component>
@@ -339,7 +356,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547033104104" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547033527047" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -387,7 +404,7 @@
       <workItem from="1546870685838" duration="691000" />
       <workItem from="1546959363083" duration="757000" />
       <workItem from="1546963567701" duration="3486000" />
-      <workItem from="1547031875966" duration="1019000" />
+      <workItem from="1547031875966" duration="1548000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1547032717689</created>
@@ -400,7 +417,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82121000" />
+    <option name="totallyTimeSpent" value="82650000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -413,7 +430,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16684435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -429,7 +445,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32947367" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32947367" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" visible="true" weight="0.32947367" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.6380597" side_tool="true" weight="0.2031579" />
@@ -485,6 +501,26 @@
     <MESSAGE value="test" />
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Util.java</url>
+          <line>129</line>
+          <properties class="me.vlaggenstok.backpack.main.Util" method="deserializeItemStack">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Util.java</url>
+          <line>126</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/../server2/spigot.jar!/org/bukkit/configuration/MemorySection.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -509,13 +545,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/vlaggenstok/backpack/commands/Lock.java" />
     <entry file="file://$PROJECT_DIR$/src/me/vlaggenstok/backpack/commands/beta.java" />
-    <entry file="file://$PROJECT_DIR$/resources/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/vlaggenstok/backpack/FileData/Config.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -548,19 +577,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Protected.java" />
-    <entry file="file://$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#newid#0;class#Util#0" expanded="true" />
-            <element signature="method#newcode#0;class#Util#0" expanded="true" />
-            <element signature="method#stringToItems#0;class#Util#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/vlaggenstok/backpack/FileData/Data.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -594,18 +610,6 @@
           <caret line="77" column="18" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#establishConnection#0;class#Main#0" expanded="true" />
-            <element signature="method#establishConnecction#0;class#Main#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -652,13 +656,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/vlaggenstok/backpack/FileData/Database.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="334">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#Database#0;class#Database#0" expanded="true" />
             <element signature="method#createDatabase#0;class#Database#0" expanded="true" />
-            <element signature="method#test#0;class#Database#0" expanded="true" />
+            <element signature="method#Tables#0;class#Database#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onEnable#0;class#Main#0" expanded="true" />
+            <element signature="method#establishConnection#0;class#Main#0" expanded="true" />
+            <element signature="method#establishConnecction#0;class#Main#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#newid#0;class#Util#0" expanded="true" />
+            <element signature="method#newcode#0;class#Util#0" expanded="true" />
+            <element signature="e#3109#3139#0" expanded="true" />
+            <element signature="method#stringToItems#0;class#Util#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
