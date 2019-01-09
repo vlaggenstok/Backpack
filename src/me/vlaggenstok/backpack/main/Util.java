@@ -36,9 +36,6 @@ public static HashMap<Player , Backpack> inadminusecommand   = new HashMap<>();
     public static Backpack getownchange(Player p){
         return ownchange.get(p);
     }
-    public static void removePlayer(Player p){
-        ownchange.remove(p);
-    }
     public static   HashMap<Player, Backpack> ownchange  = new HashMap<>();
 
 public static HashMap<Player, String> ownchangeb = new HashMap<>();

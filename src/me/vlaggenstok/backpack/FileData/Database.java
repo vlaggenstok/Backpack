@@ -25,7 +25,7 @@ public class Database {
         }
     }
 
-    public static void test()   throws SQLException {
+    public static void Tables()   throws SQLException {
 
         String tesst = "CREATE TABLE IF NOT EXISTS `Backpacks` ( " +
                 "ID INT(4) NOT NULL," +

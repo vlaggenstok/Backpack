@@ -1,8 +1,9 @@
 name: backpack
 main: me.vlaggenstok.backpack.main.Main
 version: 1.0
+author: Ramine2001//Ramon//Vlaggenstok
 commands:
-  beta:
-    description: test
   backpack:
-    description: tests
+    description: Main Command
+    usage: /backpack , /backpack admin
+    aliases: [bp]

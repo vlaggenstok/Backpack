@@ -22,7 +22,6 @@ import java.util.UUID;
 
 public class Main extends JavaPlugin {
 public Plugin pl;
-public static HashMap<byte[] , UUID> ad = new HashMap<byte[], UUID>();
   static  boolean Conf;
 private static Main main;
     Config c = Config.getInstance();
@@ -71,7 +70,7 @@ if(c.getData().getBoolean("Database.Use") == true){
         Database.createDatabase();
 
         establishConnecction();
-        Database.test();
+        Database.Tables();
     } catch (SQLException e) {
 
     }
