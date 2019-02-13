@@ -4,12 +4,15 @@ import com.mysql.fabric.xmlrpc.base.Array;
 import me.vlaggenstok.backpack.main.Backpack;
 import me.vlaggenstok.backpack.main.Util;
 import org.bukkit.Material;
+import org.bukkit.Statistic;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
+import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerLoginEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
+import org.bukkit.event.player.PlayerRespawnEvent;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
@@ -64,6 +67,8 @@ public void Join(PlayerJoinEvent e){
      }
  }
 }
+
+
     @EventHandler
     public void onQuit(PlayerQuitEvent e){
         Player p = e.getPlayer();

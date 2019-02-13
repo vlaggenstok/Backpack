@@ -22,6 +22,10 @@ public class Util {
     public ChatColor bold = ChatColor.BOLD;
     public ChatColor red = ChatColor.RED;
     public ChatColor gray = ChatColor.GRAY;
+    public ChatColor darkred = ChatColor.DARK_RED;
+    public String InvalidBp(){
+        return red + "This is not a valid backpack.";
+    }
 
     public static boolean database;
 Backpacks bd = Backpacks.getInstance();

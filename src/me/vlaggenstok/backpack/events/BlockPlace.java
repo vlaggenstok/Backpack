@@ -2,6 +2,7 @@ package me.vlaggenstok.backpack.events;
 
 import me.vlaggenstok.backpack.main.Backpack;
 import org.bukkit.Material;
+import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
@@ -16,12 +17,13 @@ import java.util.UUID;
 public class BlockPlace implements Listener {
 @EventHandler(priority = EventPriority.HIGHEST)
     public void placebackpack(BlockPlaceEvent e) {
-    if (e.getBlock().getType() == Material.CHEST) {
-        ItemStack d = e.getItemInHand();
-        if (d.getType() == Material.CHEST) {
-            if (d.hasItemMeta())
-                if (d.getItemMeta().hasLore()) {
+    Player p =e.getPlayer();
+    if (e.getBlock().getType() != Material.CHEST || p.getItemInHand().getType() != Material.CHEST && p.getItemInHand().hasItemMeta() && !p.getItemInHand().getItemMeta().hasLore())
+        return;
 
+        if (p.getItemInHand().hasItemMeta()){
+            ItemStack d = p.getItemInHand();
+                 if (d.getItemMeta().hasLore()) {
                     if (d.getItemMeta().getLore().get(0).equalsIgnoreCase("Backpack")) {
                         List<String> lore = d.getItemMeta().getLore();
                         if (Backpack.isbackpack(Integer.parseInt(lore.get(1)))) {
@@ -30,11 +32,12 @@ public class BlockPlace implements Listener {
                             itm.setLore(Arrays.asList("Backpack", b.getUUID() + "" , b.getstatus().toString()));
                             e.getItemInHand().setItemMeta(itm);
                             e.setCancelled(true);
+                            return;
                         }
                     }
                 }
         }
 
     }
-}
+
 }

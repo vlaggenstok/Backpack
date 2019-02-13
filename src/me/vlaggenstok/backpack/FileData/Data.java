@@ -115,7 +115,7 @@ try{
         this.size = size;
     }
     public void setCode(int code){
-        this.status = status;
+        this.code = code;
     }
     public void save(){
 try {

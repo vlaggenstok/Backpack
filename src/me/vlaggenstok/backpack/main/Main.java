@@ -1,9 +1,7 @@
 package me.vlaggenstok.backpack.main;
 
-import com.sun.corba.se.impl.orb.DataCollectorBase;
 import me.vlaggenstok.backpack.FileData.Backpacks;
 import me.vlaggenstok.backpack.FileData.Config;
-import me.vlaggenstok.backpack.FileData.Data;
 import me.vlaggenstok.backpack.FileData.Database;
 import me.vlaggenstok.backpack.commands.BackPack;
 import me.vlaggenstok.backpack.events.BlockPlace;
@@ -17,8 +15,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.util.HashMap;
-import java.util.UUID;
 
 public class Main extends JavaPlugin {
 public Plugin pl;
@@ -82,19 +78,14 @@ if(c.getData().getBoolean("Database.Use") == true){
     }
 
     public static Connection connection;
-    public static void setConnection(Connection connect) {
-        connection = connect;
-    }
     public static String connecsr = "";
     public static String connec = "";
     private static void establishConnection(){
         try{
             Class.forName("com.mysql.jdbc.Driver");
             connection = DriverManager.getConnection(connec);
-
-            Bukkit.getLogger().info("De plugin is verbonden met de database.");
         }catch(Exception e){
-            e.printStackTrace();
+//            e.printStackTrace();
             Bukkit.getLogger().log(java.util.logging.Level.WARNING,"Kan geen verbinding maken met de database", new Object());
             Bukkit.getPluginManager().disablePlugin(Main.getInstance().pl);
         }
@@ -103,10 +94,8 @@ if(c.getData().getBoolean("Database.Use") == true){
         try{
             Class.forName("com.mysql.jdbc.Driver");
             connection = DriverManager.getConnection(connecsr);
-
-            Bukkit.getLogger().info("De plugin is verdonden met de database.");
         }catch(Exception e){
-            e.printStackTrace();
+//            e.printStackTrace();
             Bukkit.getLogger().log(java.util.logging.Level.WARNING,"Kan geen verbinding maken met de database", new Object());
             Bukkit.getPluginManager().disablePlugin(Main.getInstance().pl);
         }
