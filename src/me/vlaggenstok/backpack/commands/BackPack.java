@@ -22,18 +22,6 @@ public class BackPack extends Util implements CommandExecutor {
 
     Backpacks ps = Backpacks.getInstance();
 
-    /*             0      1        2          3
-       * /backpack admin setowner <newowner> [id-backpack]
-        /backpack admin clear [id-backpack]
-       * /backpack admin lock <code> [id-backpack]
-       * /backpack admin unlock [id-backpack]
-       * /backpack admin enable [id-backpack]
-       * /backpack admin disable <password> [id-backpack]
-       * /backpack admin reset [id-backpack]
-        /backpack admin setcode <code> [id-backpack]
-        /backpack admin open [id-backpack]
-        /backpack admin info [id-backpack]
-     */
 
     public boolean onCommand(CommandSender sender, Command cmd, String label, String args[]) {
         if (cmd.getName().equalsIgnoreCase("backpack")) {

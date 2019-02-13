@@ -11,24 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8fa18634-0fde-4c9d-97af-40b45992432c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backpack/me/vlaggenstok/backpack/FileData/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backpack/me/vlaggenstok/backpack/FileData/Data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backpack/me/vlaggenstok/backpack/commands/BackPack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backpack/me/vlaggenstok/backpack/commands/BackPack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backpack/me/vlaggenstok/backpack/events/BlockPlace.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backpack/me/vlaggenstok/backpack/events/BlockPlace.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backpack/me/vlaggenstok/backpack/events/ChatLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backpack/me/vlaggenstok/backpack/events/ChatLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backpack/me/vlaggenstok/backpack/events/Quit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backpack/me/vlaggenstok/backpack/events/Quit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backpack/me/vlaggenstok/backpack/main/Backpack$Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backpack/me/vlaggenstok/backpack/main/Backpack$Status.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backpack/me/vlaggenstok/backpack/main/Backpack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backpack/me/vlaggenstok/backpack/main/Backpack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backpack/me/vlaggenstok/backpack/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backpack/me/vlaggenstok/backpack/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backpack/me/vlaggenstok/backpack/main/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backpack/me/vlaggenstok/backpack/main/Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backpack/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backpack/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/vlaggenstok/backpack/FileData/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/vlaggenstok/backpack/FileData/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/vlaggenstok/backpack/commands/BackPack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/vlaggenstok/backpack/commands/BackPack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/vlaggenstok/backpack/events/BlockPlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/vlaggenstok/backpack/events/BlockPlace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/vlaggenstok/backpack/events/ChatLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/vlaggenstok/backpack/events/ChatLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/vlaggenstok/backpack/events/Quit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/vlaggenstok/backpack/events/Quit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Backpack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Backpack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Util.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,15 +35,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="97" column="28" lean-forward="true" selection-start-line="97" selection-end-line="98" />
+            <state relative-caret-position="255">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#onEnable#0;class#Main#0" expanded="true" />
                 <element signature="method#establishConnection#0;class#Main#0" expanded="true" />
+                <element signature="method#establishConnecction#0;class#Main#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Backpack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
+            <state relative-caret-position="85">
               <caret line="163" column="17" selection-start-line="163" selection-start-column="17" selection-end-line="163" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -142,11 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/me/vlaggenstok/backpack/commands/BackPack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="106" column="95" selection-start-line="106" selection-start-column="95" selection-end-line="106" selection-end-column="95" />
+            <state relative-caret-position="407">
+              <caret line="98" column="32" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#invalidarg#0;class#BackPack#0" expanded="true" />
@@ -321,7 +303,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550074863291" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550075185639" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../bac - kopie/BungeeLarsWorld2/.project" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -394,7 +376,7 @@
       <workItem from="1550059489111" duration="21000" />
       <workItem from="1550059522405" duration="37000" />
       <workItem from="1550059581875" duration="130000" />
-      <workItem from="1550059724773" duration="14982000" />
+      <workItem from="1550059724773" duration="15296000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1547032717689</created>
@@ -417,11 +399,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547033577847</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test">
+      <created>1550074955624</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1550074955624</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132431000" />
+    <option name="totallyTimeSpent" value="132745000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -442,20 +431,20 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Duplicate detector" weight="0.32912722" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49840087" weight="0.32912722" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32947367" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.14526317" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.32947367" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.6380597" side_tool="true" weight="0.2031579" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.3619403" visible="true" weight="0.19978969" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Duplicate detector" order="0" weight="0.32912722" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49840087" weight="0.32912722" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32912722" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.14511041" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" weight="0.32912722" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.6380597" side_tool="true" weight="0.2031579" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.3619403" weight="0.19978969" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -465,7 +454,7 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32995737" />
-      <window_info anchor="right" id="Maven" order="9" visible="true" weight="0.015991472" />
+      <window_info active="true" anchor="right" id="Maven" order="9" visible="true" weight="0.015991472" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17643923" />
@@ -622,29 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Backpack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="163" column="17" selection-start-line="163" selection-start-column="17" selection-end-line="163" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#Status#0;class#Backpack#0" expanded="true" />
-            <element signature="method#isbackpack#0;class#Backpack#0" expanded="true" />
-            <element signature="method#Backpack#0;class#Backpack#0" expanded="true" />
-            <element signature="e#2032#2033#0" expanded="true" />
-            <element signature="e#2065#2066#0" expanded="true" />
-            <element signature="method#Backpack#1;class#Backpack#0" expanded="true" />
-            <element signature="method#open#0;class#Backpack#0" expanded="true" />
-            <element signature="method#close#0;class#Backpack#0" expanded="true" />
-            <element signature="method#getbackpack#0;class#Backpack#0" expanded="true" />
-            <element signature="method#remove#0;class#Backpack#0" expanded="true" />
-            <element signature="e#5134#5135#0" expanded="true" />
-            <element signature="e#5159#5160#0" expanded="true" />
-            <element signature="method#getBackpackSafe#0;class#Backpack#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/vlaggenstok/backpack/FileData/Database.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -691,10 +657,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="method#onEnable#0;class#Main#0" expanded="true" />
+            <element signature="method#establishConnection#0;class#Main#0" expanded="true" />
+            <element signature="method#establishConnecction#0;class#Main#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Backpack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="163" column="17" selection-start-line="163" selection-start-column="17" selection-end-line="163" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#Status#0;class#Backpack#0" expanded="true" />
+            <element signature="method#isbackpack#0;class#Backpack#0" expanded="true" />
+            <element signature="method#Backpack#0;class#Backpack#0" expanded="true" />
+            <element signature="e#2032#2033#0" expanded="true" />
+            <element signature="e#2065#2066#0" expanded="true" />
+            <element signature="method#Backpack#1;class#Backpack#0" expanded="true" />
+            <element signature="method#open#0;class#Backpack#0" expanded="true" />
+            <element signature="method#close#0;class#Backpack#0" expanded="true" />
+            <element signature="method#getbackpack#0;class#Backpack#0" expanded="true" />
+            <element signature="method#remove#0;class#Backpack#0" expanded="true" />
+            <element signature="e#5134#5135#0" expanded="true" />
+            <element signature="e#5159#5160#0" expanded="true" />
+            <element signature="method#getBackpackSafe#0;class#Backpack#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/vlaggenstok/backpack/commands/BackPack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="106" column="95" selection-start-line="106" selection-start-column="95" selection-end-line="106" selection-end-column="95" />
+        <state relative-caret-position="407">
+          <caret line="98" column="32" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#invalidarg#0;class#BackPack#0" expanded="true" />
@@ -708,18 +709,6 @@
             <element signature="method#disable#0;class#BackPack#0" expanded="true" />
             <element signature="method#adminhelp#0;class#BackPack#0" expanded="true" />
             <element signature="e#25595#25693#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/vlaggenstok/backpack/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="97" column="28" lean-forward="true" selection-start-line="97" selection-end-line="98" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#onEnable#0;class#Main#0" expanded="true" />
-            <element signature="method#establishConnection#0;class#Main#0" expanded="true" />
           </folding>
         </state>
       </provider>
